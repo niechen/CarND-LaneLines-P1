@@ -15,11 +15,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[grayscale]: ./writeup/grayscale.png "Grayscale"
-[grayblur]: ./writeup/grayblur.png "Grayscale Blurred"
-[canny]: ./writeup/canny.png "Canny"
-[cannymask]: ./writeup/cannymask.png "Masked Canny"
-[result]: ./writeup/result.png "Result" 
+[image1]: ./writeup/grayscale.png "Grayscale"
+[image2]: ./writeup/grayblur.png "Grayscale Blurred"
+[image3]: ./writeup/canny.png "Canny"
+[image4]: ./writeup/cannymask.png "Masked Canny"
+[image5]: ./writeup/result.png "Result" 
 ---
 
 ### Reflection
@@ -31,15 +31,15 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale. th
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
 ##### Step 1 Grayscale image
-![Grayscale][grayscale]
+![Grayscale][image1]
 ##### Step 2 Gaussian Blurred Grayscale image
-![Grayscale Blurred][grayblur]
+![Grayscale Blurred][image2]
 ##### Step 3 Canny Transformed image
-![Canny][canny]
+![Canny][image3]
 ##### Step 4 Masked Canny Transformed image
-![Masked Canny][cannymask]
+![Masked Canny][image4]
 ##### Step 5 Final result superimposed onto original image
-![Result][result]
+![Result][image5]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
