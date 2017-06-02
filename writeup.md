@@ -14,11 +14,13 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
+
 [image1]: ./writeup/grayscale.png "Grayscale"
 [image2]: ./writeup/grayblur.png "Grayscale Blurred"
 [image3]: ./writeup/canny.png "Canny"
 [image4]: ./writeup/cannymask.png "Masked Canny"
 [image5]: ./writeup/result.png "Result" 
+
 ---
 
 ### Reflection
