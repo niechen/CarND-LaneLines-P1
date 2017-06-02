@@ -30,12 +30,15 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale. th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
+##### Step 1 Grayscale image
 ![Grayscale][grayscale]
+##### Step 2 Gaussian Blurred Grayscale image
 ![Grayscale Blurred][grayblur]
+##### Step 3 Canny Transformed image
 ![Canny][canny]
+##### Step 4 Masked Canny Transformed image
 ![Masked Canny][cannymask]
+##### Step 5 Final result superimposed onto original image
 ![Result][result]
 
 
