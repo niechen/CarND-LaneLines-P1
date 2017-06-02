@@ -15,21 +15,28 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
+[grayscale]: ./writeup/grayscale.png "Grayscale"
+[grayblur]: ./writeup/grayblur.png "Grayscale Blurred"
+[canny]: ./writeup/canny.png "Canny"
+[cannymask]: ./writeup/cannymask.png "Masked Canny"
+[result]: ./writeup/result.png "Result" 
 ---
 
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. First, I converted the images to grayscale. then I applyed Gaussian Blur with to surpress noise and spurious gradient. And thirdly, I applied Canny Edge Detector to the blurred image to locate all pixels of edges (strong gradient). Fourthly, I apply a trapezoidal image mask to filter our irrelavent edges and only leave the ones that are most likely belong to lane lines. Finally, I applied Probablistic Hough Line Transform to find all the start and end points of line segments.  
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1]
+![Grayscale][grayscale]
+![Grayscale Blurred][grayblur]
+![Canny][canny]
+![Masked Canny][cannymask]
+![Result][result]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
