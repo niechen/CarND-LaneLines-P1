@@ -10,6 +10,7 @@
 [image4]: ./writeup/cannymask.png "Masked Canny"
 [image5]: ./writeup/result.png "Result" 
 [image6]: ./writeup/problem.png "Problem"
+
 ---
 
 ### Reflection
